@@ -1,0 +1,14 @@
+.mainHeader {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(109, 11, 126);
+    color: white;
+    padding: 0;
+
+}
+
+.headerText {
+    margin-left: 32px;
+}
