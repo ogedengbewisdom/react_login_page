@@ -1,0 +1,51 @@
+
+.login {
+    margin: 6rem auto;
+    font-size: medium;
+    font-weight: bold;
+    padding: 1.8rem;
+    width: 90%;
+    max-width: 39.83rem;
+    
+}
+
+.control {
+  margin: 1rem 0;
+  display: flex;
+ 
+}
+
+.control input {
+    padding: 0.5rem;
+    width: 26rem;
+    flex: 3;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid rgb(203, 199, 199);
+}
+
+.control label {
+    padding: 0.4rem;
+    margin-bottom: 0.5rem;
+    flex: 1;
+    color: rgb(70, 67, 67);  
+}
+
+.control input:focus {
+    background-color: plum;
+    border: 1px solid purple;
+}
+
+
+.butin {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+@media (max-width: 565px) {
+    .control {
+        flex-direction: column;
+    }
+}
