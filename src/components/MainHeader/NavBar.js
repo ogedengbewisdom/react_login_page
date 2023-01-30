@@ -2,22 +2,22 @@
 import styles from "./NavBar.module.css"
 
 
-const NavBar = () => {
+const NavBar = (props) => {
 
     return (
         <nav className={styles.navBars}>
             <ul className={styles.navBar}>
-                <li>
+            {props.isLoging && (<li>
                     <a href="/">Users</a>
-                </li>
+                </li>)}
 
-                <li>
+                {props.isLoging && (<li>
                     <a href="/">Admin</a>
-                </li>
+                </li>)}
 
-                <li>
-                    <button className={styles.but} type="button">Logout</button>
-                </li>
+                {props.isLoging &&(<li>
+                    <button className={styles.but} onClick={props.onLogout}>Logout</button>
+                </li>)}
             </ul>
         </nav>
     )
