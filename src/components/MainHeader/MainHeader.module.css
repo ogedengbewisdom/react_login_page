@@ -14,7 +14,17 @@
 }
 
 .headerText {
-
     margin: 0;
     margin-left: 2rem;
+}
+
+@media (max-width: 565px) {
+    .mainHeader {
+        margin-left: 0;
+    }
+    .headerText {
+        margin-left: 0;
+        font-size: 1rem;
+        white-space: nowrap;
+    }
 }
