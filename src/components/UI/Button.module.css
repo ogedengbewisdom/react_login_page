@@ -31,3 +31,10 @@ button:active:disabled {
   color: #666666;
   cursor: not-allowed;
 }
+
+@media (max-width: 565px) {
+
+  .button {
+      padding: 0.45rem 1.5rem;
+  }
+}
