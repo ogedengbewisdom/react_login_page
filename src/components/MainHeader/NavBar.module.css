@@ -1,13 +1,8 @@
-nav ul li {
+/* .navBars .navBar li {
     display: inline-block;
     margin: 5px 30px 0 2px;  
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    
-}
 
 .but {
     background: rgb(214, 38, 194);
@@ -21,4 +16,60 @@ nav ul li a {
 }
 
 
+ */
+
+/*  
+ .navBars .navBar li a {
+    color: white;
+    text-decoration: none;
+    
+}
+ .navBars ul {
+    list-style: none;
+    display: flex;
+ }
+
+ .navBars li {
+    margin: 0;
+    margin-left: 2rem;
+  } */
+
+.navBars ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.navBars ul li {
+    margin: 1rem;
+    margin-top: 1.2rem;
+
+}
+
+.navBars ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navBars ul li a:hover,
+.navBars ul li a:active {
+    color: #f3cafb;
+}
+
+.navBars button {
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    width: 110px;
+    font-size: medium;
+    background: #dd0db0;
+    border: 1px solid #dd0db0;
+    color: white;
+}
+
+.navBars button:hover,
+.navBars button:active {
+    color: #f3cafb;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.27);
+}
 
