@@ -1,12 +1,13 @@
 
 import { initializeApp } from "firebase/app";
+
 const firebaseConfig = {
-  apiKey: "AIzaSyAncZAZMHOXv5ilFFh3mzF769ciYQpLNZc",
-  authDomain: "reactloginauthentication.firebaseapp.com",
-  projectId: "reactloginauthentication",
-  storageBucket: "reactloginauthentication.appspot.com",
-  messagingSenderId: "969265743653",
-  appId: "1:969265743653:web:29ffb8b900725b8495bccc"
+  apiKey: "AIzaSyA7xectFKVNPOVzysOD9sqRBfMnolaZZqE",
+  authDomain: "reactlogin-11020.firebaseapp.com",
+  projectId: "reactlogin-11020",
+  storageBucket: "reactlogin-11020.appspot.com",
+  messagingSenderId: "196283279378",
+  appId: "1:196283279378:web:f0a5eb62b4fc073cea50cb"
 };
 
 export const app = initializeApp(firebaseConfig);
